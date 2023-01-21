@@ -94,3 +94,11 @@ span {
     margin: 2.5vh 2.5vw;
     float: left;
 }
+
+.card2 {
+    background-color: royalblue;
+    width: 25vw;
+    height: 100px;
+    margin: 2.5vh 2.5vw;
+    float: left;
+}
