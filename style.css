@@ -72,3 +72,25 @@ span {
     margin-left: 100px;
     margin-top: 20px;
 }
+
+.cabecalho {
+    max-width: 80vw;
+    background-color: darkslategrey;
+    color: aliceblue;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.corpo {
+    margin: 0 auto;
+    max-width: 90vw;
+    max-height: 60vh;
+}
+
+.card {
+    background-color: royalblue;
+    width: 40vw;
+    height: 100px;
+    margin: 2.5vh 2.5vw;
+    float: left;
+}
