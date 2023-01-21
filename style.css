@@ -1,0 +1,74 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 700px;
+    margin: auto;
+}
+
+.infos {
+    width: 700px;
+    height: 165px;
+}
+
+.infosDireita {
+    background-color: rgb(228, 115, 115);
+    padding: 10px 30px;
+    float: right;
+    width: 125px;
+    font-size: 1em;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+.infosEsquerda {
+    background-color: rgb(228, 115, 115);
+    padding: 10px 30px;
+    margin: 10px;
+    float: left;
+    width: 125px;
+    font-size: 1em;
+}
+
+.rotina {
+    width: 230px;
+    height: 250px;
+    background-color: rgb(53, 53, 104);
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+span {
+    font-size: 1em;
+    margin: 0px 10px 10px 10px;
+    font-weight: normal;
+}
+
+.hobbies {
+    width: 230px;
+    height: 250px;
+    background-color: rgb(36, 190, 113);
+    float: right;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.artistasPreferidos {
+    width: 230px;
+    height: 250px;
+    background-color: rgb(36, 190, 113);
+    float: left;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.viagens {
+    width: 230px;
+    height: 250px;
+    background-color: rgb(36, 190, 113);
+    float: right;
+    margin-left: 100px;
+    margin-top: 20px;
+}
