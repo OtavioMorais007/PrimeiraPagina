@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de carros</title>
+</head>
+<body>
+    <section class="formulario">
+        <form action="">
+
+            <div class="inputs">
+                <label for="modeloCarro">Modelo do carro: </label>
+                <input type="text" name="modelo" id="modeloCarro" placeholder="Ex: Q6">
+            </div>
+
+            <div class="inputs">
+                <label for="marcaCarro">Marca do carro: </label>
+                <input type="text" name="marca" id="marcaCarro" placeholder="Ex: Audi">
+            </div>
+
+            <div class="inputs">
+                <label for="anoCarro">Ano do carro: </label>
+                <input type="text" name="ano" id="anoCarro" placeholder="Ex: 2020">
+            </div>
+
+            <div class="inputs">
+                <label for="quilometragemCarro">Quilometragem do carro: </label>
+                <input type="text" name="quilometragem" id="quilometragemCarro" placeholder="Ex: 18000">
+            </div>
+
+            <div class="inputs">
+                <label for="valorCarro">Valor do carro: </label>
+                <input type="text" name="valor" id="valorCarro" placeholder="Ex: 220000">
+            </div>
+
+            <div class="inputs">
+                <label for="usado">Usado: </label>
+                <input type="radio" name="usado" id="usado" value="usado">
+                <label for="novo">Novo: </label>
+                <input type="radio" name="usado" id="novo" value="novo">
+            </div>
+
+            <div class="inputs">
+                <label for="adicionais">Adicionais: </label>
+                <div>
+                    <label for="abs">Abs: </label>
+                    <input type="checkbox" name="adicionais" id="abs">
+                </div>
+                <div>
+                    <label for="automatico">Câmbio automático: </label>
+                    <input type="checkbox" name="adicionais" id="automatico">
+                </div>
+                <div>
+                    <label for="airbags">Airbags: </label>
+                    <input type="checkbox" name="adicionais" id="airbags">
+                </div>
+                <div>
+                    <label for="vidroAutomatico">Vidro automático: </label>
+                    <input type="checkbox" name="adicionais" id="vidroAutomatico">
+                </div>
+            </div>
+
+            <div class="inputs">
+                <label for="finalDaPlaca">Final da placa: </label>
+                <select name="finalDaPlaca" id="finalDaPlaca">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="0">0</option>
+                </select>
+            </div>
+            
+            <div class="inputs">
+                <input type="submit" value="Cadastrar">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
